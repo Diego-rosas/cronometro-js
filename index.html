@@ -11,6 +11,21 @@
     <script src="js/script.js" defer></script>
 </head>
 <body>
-    <h1>Cronômetro.js</h1>
+    <div>
+        <h1>Cronômetro.js</h1>
+        <div class="timer">
+            <div class="time" id="minutes">00</div>
+            <div class="separator">:</div>
+            <div class="time" id="seconds">00</div>
+            <div class="separator">:</div>
+            <div class="time" id="milliseconds">000</div>    
+        </div>
+    </div>
+    <div class="buttons">
+        <button class="btn" id="startBtn">Iniciar</button>
+        <button class="btn" id="pausarBtn">Pausar</button>
+        <button class="btn" id="resumeBtn">Continuar</button>
+        <button class="btn" id="resetBtn">Resetar</button>
+    </div>
 </body>
 </html>
